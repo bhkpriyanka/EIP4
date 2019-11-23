@@ -11,4 +11,4 @@
 7.Increased batch size.Tried 32,64,128,256 and got better results for 64.  
 8.Slightly increased no.of kernels.  
 9.added dropouts to avoid overfitting.Tried with uniform rates initially,but then used lower values for shallow kernels with lesser number of parameters and larger values of dropouts for deeper kernels.  
-10.Achieved what was asked for :),but wondering is there an easy way instead of so much trial and error :(?
+10.Achieved what was asked for :),but wondering is there an better way instead of so much trial and error and guesswork in deciding on correct no. of filters, epoch rates and other parameters:(?
