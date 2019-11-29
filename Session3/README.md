@@ -37,7 +37,7 @@ model.add(GlobalAveragePooling2D()) #200
 model.add(Dense(64, activation='relu',use_bias =False)) #64  
 model.add(Dense(num_classes, activation='softmax',use_bias =False)) #10  
   
-**50 epoch logs** **Beats base validation in 27th epoch and highest Vacc=84.83** 
+**50 epoch logs** **Beats base validation in 27th epoch and highest Vacc=84.83**  
 Epoch 1/50
 
 Epoch 00001: LearningRateScheduler setting learning rate to 0.006.
